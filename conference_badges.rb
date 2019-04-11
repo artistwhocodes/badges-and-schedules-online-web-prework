@@ -16,7 +16,7 @@ end
 def assign_rooms(attendees)
   assign=[]
 
-  speakers.assign_rooms{|speaker,index|
+  speakers.rooms{|speaker,index|
   assign.push("Hello, #{speaker}! You'll be assigned to room #{index + 1}!")
     }
    return assign
