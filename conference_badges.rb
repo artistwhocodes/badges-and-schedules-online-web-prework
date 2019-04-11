@@ -2,7 +2,7 @@
 def conference_badges
 
   def badge_maker(name)
-    return name
+    puts "Hello, my name is #{name}."
   end
 
 end
